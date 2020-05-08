@@ -1,7 +1,6 @@
 def run_guessing_game
   comp = rand(6) + 1
   puts "I'm thinking of a number between 1 and 6..."
-  puts "Guess..."
   guess = gets
   if guess == 'exit'
     puts "Goodbye!"
