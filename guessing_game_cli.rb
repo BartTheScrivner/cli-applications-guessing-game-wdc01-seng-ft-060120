@@ -4,9 +4,9 @@ def run_guessing_game
   guess = gets
   if guess == 'exit'
     puts "Goodbye!"
-  elsif guess.to_int != comp
-   puts "Sorry! The computer guessed #{comp}."
+  elsif guess.to_i != comp
+    puts "Sorry! The computer guessed #{comp}."
   else
-     puts "You guessed the correct number!"
+    puts "You guessed the correct number!"
   end
 end
